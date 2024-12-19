@@ -4,11 +4,12 @@
 
 Each file follows this format:
 
-It starts with a number (can contain any number of digits).
-Then has an underscore _.
-Continues with a file name and its extension.
-Ends with an extra extension at the end (which we don't need).
-Keep in mind that the file names may contain letters (a-z, A-Z), numbers (0-9), other underscores (_), and hyphens (-).
+- It starts with a number (can contain any number of digits).
+- Then has an underscore \_.
+- Continues with a file name and its extension.
+- Ends with an extra extension at the end (which we don't need).
+
+Keep in mind that the file names may contain letters (a-z, A-Z), numbers (0-9), other underscores (\_), and hyphens (-).
 
 Your task is to implement a function that receives a string with the name of an encoded file and returns only the important part: the file name and its extension.
 
